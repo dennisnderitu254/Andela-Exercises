@@ -4,10 +4,6 @@
 print "=====WELCOME============="
 print "Area Calculation Program"
 print "========================="
-print "1. Circle"
-print "2. Rectangle"
-print "3. Quit"
-print
 
 from math import pi
 from time import sleep
@@ -24,7 +20,7 @@ sleep(1)
 hint = "Don't forget to include the correct units! \nExiting"
 
 #prompt user for shape
-option = raw_input("Enter C for Circle or T for Triangle: ")
+option = raw_input("Enter C for Circle or T for Triangle or R for Rectangle: ")
 # force uppercase letter
 option = option.upper()
 
@@ -53,6 +49,17 @@ elif option == 'T':
     print("Uni Bi Tri...")
     sleep(1)
     print("Area: %.2f. \n%s" % (area, hint))
+
+elif option == 'R':
+	# Get length of rectangle
+	length = float(raw_input("Enter the length of the rectangle:"))
+	# Get the width of the Rectangle
+	width = float(raw_input("Enter the width of the Rectangle:"))
+	# Area equals Length and width
+	area = length*width
+	print("Uno..Do..Tre..Quatro")
+	sleep(1)
+	print("Area: %.2f. \n%s" % (area, hint))
   
 #option when user inputs garbage
 #notify user that input is garbage, exit
