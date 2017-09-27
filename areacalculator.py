@@ -4,6 +4,7 @@
 print "=====WELCOME============="
 print "Area Calculation Program"
 print "========================="
+print "========WELCOME AGAIN====="
 
 from math import pi
 from time import sleep
