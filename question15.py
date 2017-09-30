@@ -1,4 +1,4 @@
-""" program that approximates the value of pie gy summing the terms of the series:
+""" program that approximates the value of pie by summing the terms of the series:
   program should  prompt user for n,the number of therms to sum, and gitve tn n terms of the series
 
   """
