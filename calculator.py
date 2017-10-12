@@ -46,4 +46,4 @@ def main():
 			help_screen()
 		elif choice == "Q" or choice == "q":#Quit
 			done = True
-
+main()
